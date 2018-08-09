@@ -100,6 +100,10 @@ nav .brand-logo {
   display: block;
 }
 
+.ham-icon {
+  display: none;
+}
+
 /* HomeDiv */
 
 .HomeDiv {
@@ -205,6 +209,7 @@ nav .brand-logo {
   /* background-color: teal; */
   transform: rotate(-30deg);
   color: orangered;
+  padding-right: 3px;
 }
 
 .ticketIcon {
@@ -349,6 +354,47 @@ nav .brand-logo {
   flex-direction: column;
 }
 
+/* navbar for mobile */
+@media only screen and (max-width: 768px) {
+  .navBar {
+    height: auto;
+    width: 100%;
+  }
+
+  .nav-details {
+    display: none;
+    padding-top: 60px;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+  }
+
+  .ham-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+  }
+
+  .toggleMenu {
+    display: flex;
+  }
+
+  .dropdown {
+    position: unset;
+  }
+  .dropDown-content {
+    position: unset;
+    margin-left: 30%;
+    box-shadow: none;
+  }
+
+  .dropDown-content--Show {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
 }
 
@@ -367,10 +413,10 @@ nav .brand-logo {
 }
 
 #map {
+  margin-top: 2.5em;
   width: 100%;
-  min-height: 100px;
+  min-height: 50vh;
   height: 750px;
-  max-height: 50vh;
 }
 
 .attendeeContainer {
@@ -457,23 +503,26 @@ hr {
   display: grid;
 }
 
-.logo img {
+.footerDiv .logo img {
   justify-self: center;
   align-self: center;
+  height: 100px;
+  margin-left: -50px;
+  margin-bottom: 10px;
 }
 
-.logo div {
+.footerDiv .logo div {
   justify-self: center;
   margin: -2em;
 }
 
-.logo div a {
+.footerDiv .logo div a {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   padding: 0 1em;
 }
 
-.logo div a:hover {
+.footerDiv .logo div a:hover {
   cursor: pointer;
 }
 
@@ -533,17 +582,17 @@ hr {
   .footerDiv {
     height: 50vh;
   }
-  .logo img {
+  .footerDiv .logo img {
     display: none;
   }
-  .logo div {
+  .footerDiv .logo div {
     margin-top: 1em;
   }
-  .logo div span {
+  .footerDiv .logo div span {
     display: block;
   }
-  .logo div a {
-    font-size: 10px;
+  .footerDiv .logo div a {
+    font-size: 12px;
     padding: 0 4px;
   }
   .footerIbeto img {
@@ -599,6 +648,13 @@ hr {
   }
   .attendeeDetailDiv {
     grid-template-columns: auto auto;
+  }
+  .footerDiv {
+    height: 225px;
+  }
+  .footerDiv .logo div a {
+    font-size: 17px;
+    padding: 0 4px;
   }
 }
 /* iphone 6s and 6s+*/
@@ -673,6 +729,10 @@ hr {
   .attendeeHead {
     font-size: 2.4em;
   }
+  .footerDiv .logo div a {
+    font-size: 12px;
+    padding: 0 4px;
+  }
 }
 
 /* very small phone Iphone SE */
@@ -688,8 +748,14 @@ hr {
   .globalContent {
     font-size: 15px;
   }
+  .globalDiv {
+    height: 100vh;
+  }
   .globalDiv button {
     width: auto;
+  }
+  .globalDiv button {
+    height: 3em;
   }
 }
 
@@ -739,5 +805,20 @@ hr {
   .portrait {
     font-size: 15px;
     padding: 10px;
+  }
+  .homeContent {
+    width: 80%;
+  }
+  .homeContent .logo img {
+    justify-self: center;
+    align-self: center;
+    height: 100px;
+  }
+}
+
+/* ipad logo landscape*/
+@media only screen and (max-width: 1200px) {
+  .homeContent .logo img {
+    height: 150px;
   }
 }

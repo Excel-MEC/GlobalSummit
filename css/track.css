@@ -56,8 +56,13 @@ body{
 .trackLogo{
     font-size: 20px;
 }
+.trackLogo img {
+	height: 200px;
+	margin-top: 25px;
+	margin-left: -20px;
+}
 
-.trackKochi{
+ .trackKochi{
     font-size: 18px;
 }
 
@@ -75,10 +80,6 @@ body{
     background: rgb(23, 23, 65);
     opacity: 0.8;
 }
-
-
-
-
 
 
 
@@ -263,6 +264,10 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
         grid-template-columns: auto;
         grid-gap: 20px;
     }
+
+    .trackLogo img{
+        height: 100px;
+    }
 }
 /* iphone se*/
 @media only screen and (max-width: 320px) {
@@ -287,12 +292,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     .aboutTrack {
         padding: 0px;
     }
-   
 }
 
 /*ipad potrait grids*/
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 1200px) {
+    .trackLogo img{
+        height: 150px;
+    }
  
 }
 
