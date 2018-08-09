@@ -58,7 +58,7 @@ body{
     font-size: 20px;
 }
 .trackLogo img {
-	height: 200px;
+	height: 175px;
 	margin-top: 25px;
 	margin-left: -20px;
 }
@@ -270,7 +270,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     font-size: 20px;
 }
 
+/*ipad potrait grids*/
 
+@media only screen and (max-width: 1200px) {
+    .trackLogo img{
+        height: 150px;
+    }
+ 
+}
 /* iphone 6s and 6s+*/
 
 @media only screen and (max-width: 420px) {
@@ -338,14 +345,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     }
 }
 
-/*ipad potrait grids*/
 
-@media only screen and (max-width: 1200px) {
-    .trackLogo img{
-        height: 150px;
-    }
- 
-}
 
 
 
