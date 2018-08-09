@@ -771,9 +771,20 @@ hr {
         font-size: 15px;
         padding: 10px;
     }
+    .homeContent{
+        width: 80%;
+    }
     .homeContent .logo img {
         justify-self: center;
         align-self: center;
         height: 100px;
+    }
+    
+}
+
+/* ipad logo landscape*/
+@media only screen and (max-width:1200px){
+    .homeContent .logo img {
+        height: 150px;
     }
 }
