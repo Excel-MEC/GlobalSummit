@@ -45,26 +45,6 @@ nav .brand-logo {
     color: #888888;
 }
 
-.homeContent .logo img {
-    justify-self: center;
-    align-self: center;
-    height: 200px;
-}
-
-.homeContent .logo div {
-    justify-self: center;
-    margin: -2em;
-}
-
-.homeContent .logo div a {
-    color: white;
-    font-size: 22px;
-    padding: 0 1em;
-}
-
-.homeContent .logo div a:hover {
-    cursor: pointer;
-}
 
 .nav-details {
     /* background-color: tomato; */
@@ -120,6 +100,11 @@ nav .brand-logo {
 .dropdown:hover .dropDown-content {
     display: block;
 }
+
+.ham-icon {
+    display:  none;
+}
+
 
 /* HomeDiv */
 
@@ -357,6 +342,47 @@ nav .brand-logo {
     align-items: center;
     /* background-color: teal; */
     flex-direction: column;
+}
+
+/* navbar for mobile */
+@media only screen and (max-width: 768px) {
+    .navBar {
+        height: auto;
+        width: 100%;
+    }
+
+    .nav-details {
+        display: none;
+        padding-top: 60px; 
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+    }
+
+    .ham-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+    }
+
+    .toggleMenu {
+        display: flex;
+    }
+
+    .dropdown {
+        position: unset;
+    }
+    .dropDown-content {
+        position: unset;
+        margin-left: 30%;
+        box-shadow: none;
+    }
+
+    .dropDown-content--Show {
+        display: block;
+    }
 }
 
 

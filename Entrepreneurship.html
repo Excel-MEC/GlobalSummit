@@ -7,15 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/track.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
-    <title>Exhibition | Global Summmit</title>
-    <link href="assets/icon.png" rel="icon" type="image/gif">
-
+    <title>Track 2</title>
 </head>
 
 <body>
-
 
 
 
@@ -47,22 +45,55 @@
 
 
 
-
-
-    <!-- HomeDisplay -->
-    <div class="HomeDiv">
+    <!-- BACKGROUND DIV -->
+    <div class="HomeDiv track2">
         <div class="transparent-box">
-            <div class="homeContent">
-                <div class="logo">LOGO</div>
-                <div class="India">KOCHI,2018</div>
-                <div class="Global">Exhibition</div>
-                <div class="Tickets">
-                    <a href="#">
-                        <div class="ticketIcon">
-                            <i class="fas fa-ticket-alt"></i>
-                        </div>
-                        <div id="bookTickets">Book Exhibit</div>
-                    </a>
+            <div class="headingDetails">
+                <div class="trackLogo head"><img src="./assets/event-logo-white.png"></div>
+                <div class="trackKochi head">KOCHI,2018</div>
+                <div class="trackHead head">The rise of Entrepreneurship</div>
+                <div class="trackDesc head">The challenges and success stories of the entrepreneurship world.</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- BIG DESCRIPTION -->
+    <div class="aboutTrack">
+        <div>
+            <h3>Exhibition</h3>
+            <p>
+                    Our changing economy has led to the rise of the entrepreneur. Technological innovations make entrepreneurship more accessible to a wider swath of people. The entrepreneur theme is the idea that entrepreneurship involves individuals with unique personality characteristics and abilities. The speaker would be focussing to speak on  how entrepreneurship has changed their life, as well as their own entrepreneurial stories. It would also be a discussion about the challenges faced by entrepreneurs. 
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="extraDiv">
+
+    </div>
+
+
+
+
+
+
+    <!-- SPEAKERS PANEL -->
+    <div class="speakerPanel">
+        <div>
+            <h3>SPEAKER</h3>
+            <div class="speakers">
+                <div class="speakerImage">
+                    <img src="./assets/track1Head.jpg">
+                </div>
+                <div class="speakerDetails">
+                    <div class="speakerName">Speaker Name</div>
+                    <div class="speakerDesig">Designation</div>
                 </div>
             </div>
         </div>
@@ -70,62 +101,22 @@
 
 
 
-    <!-- <hr /> -->
 
 
+    <!-- PARALLAX TRACK-->
+    <div class="parallax-container" style="height: 80vh;">
 
-
-
-
-
-
-
-    <!-- Global Summit Description -->
-    <div class="globalDiv">
-
-        <div class="globalHead">
-            Exhibition
+        <div class="parallax">
+            <img src="./assets/climateChangeparallax.jpeg" style="background-size: cover">
         </div>
 
-        <div class="globalContent">
-            SURGE is Web Summit’s first conference in India. In 5 years, Web Summit, held annually in Europe, has grown from 400 attendees
-            to over 42,000 from more than 134 countries. It’s been called “the best technology conference on the planet”.
-            Now we’re coming to India...
+        <div class="transparent-box kochi" style="height: 100%;"></div>
+
+        <div class="kochiDiv">
+            <div>"We have to Wake up to the fierce urgency of the Now"</div>
+            <div style="font-size: 20px;font-weight: bold;">-Jim Yong Kim (President,The World Bank)</div>
+            <!-- <button class="btn">DISCOVER KOCHI</button> -->
         </div>
-
-        <button class="btn deep-orange waves-light waves-effect">Learn More</button>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!-- ImagesDiv -->
-    <div class="imagesDiv">
-        <div class="top-left"></div>
-        <div class="quote-section"> Here is a random Quote. Hello World</div>
-        <div class="top-right"></div>
-
-
-        <div class="quote-section">Here is a random Quote. Hello World</div>
-        <div class="bottom-mid"></div>
-        <div class="quote-section">Here is a random Quote. Hello World</div>
-    </div>
-
-
-
-
-
-
-
-
-    <!-- Companies Attending event -->
-    <div class="companies">
-        Companies Logo..
     </div>
 
 
@@ -181,34 +172,11 @@
 
 
 
-
-    <script>
-        function myMap() {
-            var myCenter = new google.maps.LatLng(10.0279665, 76.3076201);
-            var mapCanvas = document.getElementById("map");
-            var mapOptions = {
-                center: myCenter,
-                zoom: 15
-            };
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-            var marker = new google.maps.Marker({
-                position: myCenter
-            });
-            marker.setMap(map);
-        }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=Your_API_Key&callback=myMap"></script>
-    <!--
-      To use this code on the website, get a free API key from Google.
-      -->
-
-
     <!-- FOOTER -->
     <div class="footerDiv">
 
         <div class="logo">
-            <img src="assets/globalsummit.img" />
+            <img src="assets/event-logo-white.png" />
             <div>
                 <span>
                     <a href="./index.html#nav">Home</a>
@@ -246,11 +214,11 @@
 
     </div>
 
-
-
     <!-- Javascript -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./JS/script.js"></script>
+
 </body>
 
 </html>
