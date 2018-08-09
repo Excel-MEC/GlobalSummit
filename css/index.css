@@ -147,6 +147,10 @@ nav .brand-logo {
     font-size: 30px;
 }
 
+.homeContent .logo img {
+  height: 175px;
+}
+
 .India {
     grid-area: INDIA;
     /* background-color: tomato; */
@@ -604,6 +608,13 @@ hr {
 
 /* Media queries */
 
+/* ipad logo landscape*/
+@media only screen and (max-width:1200px){
+    .homeContent .logo img {
+        height: 150px;
+    }
+}
+
 /*ipad potrait grids*/
 
 @media only screen and (max-width: 805px) {
@@ -646,10 +657,13 @@ hr {
         font-size: 17px;
         padding: 0 4px;
     }
+    .homeContent .logo img {
+        height: 125px;
+      }
 }
 /* iphone 6s and 6s+*/
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
     .HomeDiv {
         height: 90vh;
     }
@@ -665,6 +679,10 @@ hr {
     }
     #tickets {
         font-size: 15px;
+    }
+
+    #bookTickets {
+       font-size: 15px;
     }
     .Tickets i {
         font-size: 25px;
@@ -723,6 +741,9 @@ hr {
         font-size: 12px;
         padding: 0 4px;
     }
+    .homeContent .logo img {
+        height: 100px;
+      }
 }
 
 /* very small phone Iphone SE */
@@ -808,9 +829,3 @@ hr {
     
 }
 
-/* ipad logo landscape*/
-@media only screen and (max-width:1200px){
-    .homeContent .logo img {
-        height: 150px;
-    }
-}

@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color: ghostwhite;
 }
 
  
@@ -140,18 +141,33 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
 
 
 /* SPEAKER PANEL */
-.speakerPanel{
-    margin-bottom: 4em;
-    position: relative;
-    /* background-color: teal; */
-    height: auto;
-    width: 100vw;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+.speakerPanel {
+	position: relative;
+	/* background-color: teal; */
+	height: auto;
+	/* width: 80%; */
+	/* padding: 1em; */
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 5vw;
+	margin-top: 0px;
+	/* box-shadow: 0px 8px 16px 0 rgba(0,0,0,.3); */
+	background-color: white;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
 }
+
+.speakerAbout {
+	font-size: 21px;
+	padding-top: 15px;
+	padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 50px;
+    color: black;
+}
+
+
+
 
 .speakerPanel > div{
     height: auto;
