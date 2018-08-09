@@ -56,8 +56,11 @@ body{
 .trackLogo{
     font-size: 20px;
 }
+ .trackLogo img{
+    height: 200px;
+ }
 
-.trackKochi{
+ .trackKochi{
     font-size: 18px;
 }
 
