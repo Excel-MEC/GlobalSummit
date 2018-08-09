@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
 body{
     overflow-x: hidden;
     background-color: ghostwhite;
@@ -65,6 +67,7 @@ body{
 
  .trackKochi{
     font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .trackHead{
@@ -88,6 +91,7 @@ body{
 
 .trackDesc{
     font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .track3box{
     background: rgb(23, 23, 65);
@@ -134,6 +138,7 @@ body{
 }
 .aboutTrack > div > p{
     font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 
@@ -182,6 +187,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     padding-right: 5vw;
     padding-bottom: 50px;
     color: black;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .speakerPanel h3{
@@ -207,9 +213,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     display: grid;
     grid-template-columns: auto;
 }
-.speakerPanel > h3{
+.speakerPanel  h3{
     color: tomato;
     font-size: 4em;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
 }
 
 .speakerPanelDouble{
