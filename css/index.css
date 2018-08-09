@@ -180,8 +180,13 @@ nav .brand-logo {
   align-items: center;
   color: white;
   font-size: 4em;
-  font-family: "Hammersmith One", sans-serif;
   text-align: center;
+
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
 }
 
 /*Built by Joyal A Johney & Devdutt Shenoi*/
@@ -257,6 +262,12 @@ nav .brand-logo {
   font-weight: lighter;
   color: gray;
   /* background-color: teal; */
+  font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 
 .globalContent {
@@ -304,16 +315,15 @@ nav .brand-logo {
 }
 
 .quote-section {
-  font-size: 25px;
-  background-color: #b4b4b4;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
+	font-size: 25px;
+	background-color: #191d4e;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
 }
-
 /* COMPANIES */
 
 .companies {
@@ -339,6 +349,12 @@ nav .brand-logo {
   color: white;
   z-index: 9;
   text-align: center;
+  font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 
 .kochiDiv button {
@@ -356,6 +372,17 @@ nav .brand-logo {
   align-items: center;
   /* background-color: teal; */
   flex-direction: column;
+}
+
+.map-heading{
+    text-align: center;
+    padding-bottom: 2em;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 
 /* navbar for mobile */
