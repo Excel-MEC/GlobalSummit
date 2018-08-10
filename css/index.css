@@ -169,7 +169,7 @@ nav .brand-logo {
   align-items: center;
   color: white;
   font-size: 20px;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .Global {
@@ -211,7 +211,7 @@ nav .brand-logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .Tickets i {
@@ -279,7 +279,7 @@ nav .brand-logo {
   text-align: center;
   /* background-color: yellow; */
   padding-bottom: 1em;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .globalDiv button {
@@ -327,7 +327,7 @@ nav .brand-logo {
 	justify-content: center;
 	align-items: center;
   padding: 1em;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /* COMPANIES */
 
@@ -340,7 +340,7 @@ nav .brand-logo {
   font-size: 4em;
   font-weight: lighter;
   color: gray;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Parallax Div */
@@ -355,7 +355,7 @@ nav .brand-logo {
   color: white;
   z-index: 9;
   text-align: center;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
 
 body{
     overflow-x: hidden;
@@ -67,7 +67,7 @@ body{
 
  .trackKochi{
     font-size: 18px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .trackHead{
@@ -91,7 +91,7 @@ body{
 
 .trackDesc{
     font-size: 20px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .track3box{
     background: rgb(23, 23, 65);
@@ -138,28 +138,8 @@ body{
 }
 .aboutTrack > div > p{
     font-size: 20px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
-
-
-
-
-
-/* EXTRA DIV */
-.extraDiv{
-    height: 50vh;
-    width: 100vw;
-    background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-
-
-
-
 
 
 
@@ -181,13 +161,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
 }
 
 .speakerAbout {
-	font-size: 21px;
+    font-size: 21px;
+    font-weight: 350;
 	padding-top: 15px;
 	padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 50px;
     color: black;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .speakerPanel h3{
@@ -222,6 +203,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     font-weight: 500;
     text-indent: 0em;
 }
+
 
 .speakerPanelDouble{
     margin-bottom: 4em;
