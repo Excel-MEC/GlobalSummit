@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $(".dropdown-trigger").dropdown({constrainWidth:false});
+    $('.modal').modal();
 });
 
  
