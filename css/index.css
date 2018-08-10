@@ -274,6 +274,7 @@ a{
   z-index: 9;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+  width: 80%;
 
 }
 
@@ -740,7 +741,7 @@ hr {
     font-size: 2.5em;
   }
   .globalContent {
-    font-size: 15px;
+    font-size: 17px;
   }
   .imagesDiv {
     height: auto;
@@ -781,6 +782,9 @@ hr {
   .footerDiv .logo div a {
     font-size: 12px;
     padding: 0 4px;
+  }
+  .kochiDiv div {
+    font-size: 2.5em;
   }
 }
 

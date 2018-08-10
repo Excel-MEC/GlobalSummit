@@ -7,7 +7,7 @@ body{
 
  
 .track1{
-    background: url('../assets/track1Head.jpg');
+    background: url('../assets/driverlesscar.jpg');
     background-size: cover;
 }
 .track2{
@@ -161,14 +161,14 @@ body{
 }
 
 .speakerAbout {
-    font-size: 21px;
-    font-weight: 350;
+    font-size: 18px;
+    font-weight: 300;
 	padding-top: 15px;
 	padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 50px;
-    color: black;
-    font-family: 'Josefin Sans', sans-serif;
+    color: #686868;
+    /*font-family: 'Josefin Sans', sans-serif;*/
 }
 
 .speakerPanel h3{
@@ -200,7 +200,7 @@ body{
     font-family: 'monospace-font', Avenir, sans-serif;
     letter-spacing: -0.02em;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 400;
     text-indent: 0em;
 }
 
@@ -255,12 +255,14 @@ body{
     text-align: center;
 }
 
-.speakerName{
-    font-size: 3em;
+.speakerName {
+	font-size: 3em;
+	color: #3d3b7b;
 }
 
 .speakerDesig{
     font-size: 20px;
+    color: tomato;
 }
 
 /*ipad potrait grids*/
@@ -278,13 +280,13 @@ body{
     .trackHead {
         font-size: 3em;
     }
-    
 
-    .speakerPanel > h3 {
+    .speakerPanel  h3 {
         color: tomato;
-        font-size: 2.5em;
+        font-size: 3em;
     }
-    .speakerImage > img {
+
+    .speakerImage  img {
         width: 180px;
         height: 180px;
     }
@@ -308,9 +310,17 @@ body{
         grid-template-columns: auto;
         grid-gap: 20px;
     }
+    .speakerAbout {
+        font-size: 15px;
+    }
 
     .trackLogo img{
         height: 100px;
+    }
+    
+    .aboutTrack > div > p {
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
     }
 }
 /* iphone se*/
@@ -335,6 +345,9 @@ body{
     }
     .aboutTrack {
         padding: 0px;
+    }
+    .speakerAbout {
+        font-size: 14px;
     }
 }
 
