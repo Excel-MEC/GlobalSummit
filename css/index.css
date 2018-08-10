@@ -3,7 +3,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
+a{
+  outline-style: none;
+}
 /* NAVBAR */
 /*
 .navBar {
@@ -36,6 +38,33 @@ nav .brand-logo {
   padding: 5px;
 }*/
 
+/*nav .nav-wrapper {
+	position: relative;
+	height: 100%;
+  background-color: white;
+}
+
+nav ul a {
+	-webkit-transition: background-color .3s;
+	transition: background-color .3s;
+	font-size: 1rem;
+	color: #524f5d;
+	display: block;
+	padding: 0 15px;
+	cursor: pointer;
+}
+*/
+
+.brand-logo img{
+  height: 63px;
+}
+/*
+nav .sidenav-trigger i {
+	height: 56px;
+	line-height: 56px;
+	color: black;
+}
+*/
 .Logo {
   /* background-color: teal; */
   flex-basis: 50%;
@@ -699,6 +728,10 @@ hr {
     .homeContent .logo img {
         height: 125px;
       }
+
+    .brand-logo img{
+      display: none;
+    }
 }
 /* iphone 6s and 6s+*/
 

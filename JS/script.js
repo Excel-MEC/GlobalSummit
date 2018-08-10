@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $(document).ready(function(){
     $('.sidenav').sidenav();
-    $(".dropdown-trigger").dropdown();
+    $(".dropdown-trigger").dropdown({constrainWidth:false, hover:true});
 });
 
   function toggleMenu(e) {
