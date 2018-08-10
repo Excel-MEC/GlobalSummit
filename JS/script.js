@@ -5,15 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $(document).ready(function(){
     $('.sidenav').sidenav();
-    $(".dropdown-trigger").dropdown({constrainWidth:false, hover:true});
+    $(".dropdown-trigger").dropdown({constrainWidth:false});
 });
 
-  function toggleMenu(e) {
-    var menubar = document.getElementsByClassName('nav-details')[0];
-    menubar.classList.toggle('toggleMenu');
-}
-
-function dropDown(e) {
-    var toggle = document.getElementsByClassName('dropDown-content')[0];
-    toggle.classList.toggle(' dropDown-content--Show');
-}
+ 

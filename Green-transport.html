@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
     <title>Green transport</title>
+    <!-- Materalize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -21,30 +23,41 @@
 
 
     <!-- NAVBAR -->
-    <div class="navBar z-depth-3">
-        <a href="./index.html">
-            <div class="Logo">LOGO</div>
-        </a>    
-        <span class="ham-icon" onclick="toggleMenu()"> &#x2630; </span>
- 
-
-        <div class="nav-details">
-            <a href="./contacts.html">Contacts</a>
-            <a href="./exhibition.html">Exhibition</a>
-            <a href="./pitch.html">Idea Pitching</a>
-            <div class="dropdown" id="dropdown" onclick="dropDown()">
-                <button class="dropdown-btn">Tracks</button>
-                <div class="dropDown-content" id="dropdown-content">
-                    <a href="./Vehicle-Automation.html">Vehicle Automation</a>
-                    <a href="./Entrepreneurship.html">Entrepreneurship</a>
-                    <a href="./Politics-Judiciary.html">Politics & Judiciary</a>
-                    <a href="./Machine-Learning.html">Machine Learning</a>
-                    <a href="./Green-transport.html">Green transport</a>
-                    <a href="./Track6.html">Track6</a>
-                </div>
+    <ul id="dropdown2" class="dropdown-content">
+            <li><a class="grey-text text-darken-4" href="./Vehicle-Automation.html">Vehicle Automation</a></li>
+            <li><a class="grey-text text-darken-4" href="./Entrepreneurship.html">Entrepreneurship</a></li>
+            <li><a class="grey-text text-darken-4" href="./Politics-Judiciary.html">Politics & Judiciary</a></li>
+            <li><a class="grey-text text-darken-4" href="./Machine-Learning.html">Machine Learning</a></li>
+            <li><a class="grey-text text-darken-4" href="./Green-transport.html">Green transport</a></li>
+            <li><a class="grey-text text-darken-4" href="./Track6.html">Track6</a></li>
+          </ul>
+        <nav>
+            <div class="nav-wrapper white ">
+            <a href="/index.html" class="brand-logo"><img src="./assets/event-logo-black.png"></a>
+            <a href="#" data-target="mobile-demo" class="grey-text text-darken-4 sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger grey-text text-darken-4" href="#!" data-target="dropdown2">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="grey-text text-darken-4" href="./pitch.html">Idea Pitching</a></li>
+                <li><a class="grey-text text-darken-4" href="./exhibition.html">Exhibition</a></li>
+                <li><a class="grey-text text-darken-4" href="./contacts.html">Contacts</a></li> 
+            </ul>
             </div>
-        </div>
-    </div>
+        </nav>
+    
+        <ul class="sidenav" id="mobile-demo">
+            <li><a class="dropdown-trigger grey-text text-darken-4" href="#!" data-target="dropdown1">Tracks<i class="material-icons right">arrow_drop_down</i></a></li>
+            <ul id="dropdown1" class="dropdown-content ">
+                    <li><a class="grey-text text-darken-4" class="blue-grey darken-3" href="./Vehicle-Automation.html">Vehicle Automation</a></li>
+                    <li><a class="grey-text text-darken-4" href="./Entrepreneurship.html">Entrepreneurship</a></li>
+                    <li><a class="grey-text text-darken-4" href="./Politics-Judiciary.html">Politics & Judiciary</a></li>
+                    <li><a class="grey-text text-darken-4" href="./Machine-Learning.html">Machine Learning</a></li>
+                    <li><a class="grey-text text-darken-4" href="./Green-transport.html">Green transport</a></li>
+                    <li><a class="grey-text text-darken-4" href="./Track6.html">Track6</a></li>
+            </ul>
+            <li><a class="grey-text text-darken-4" href="./pitch.html">Idea Pitching</a></li>
+            <li><a class="grey-text text-darken-4" href="./exhibition.html">Exhibition</a></li>
+            <li><a class="grey-text text-darken-4" href="./contacts.html">Contacts</a></li> 
+        </ul>
 
 
     <!-- BACKGROUND DIV -->
