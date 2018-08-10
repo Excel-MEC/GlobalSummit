@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
 body{
     overflow-x: hidden;
+    background-color: ghostwhite;
 }
 
  
@@ -57,24 +60,38 @@ body{
     font-size: 20px;
 }
 .trackLogo img {
-	height: 200px;
+	height: 175px;
 	margin-top: 25px;
 	margin-left: -20px;
 }
 
  .trackKochi{
     font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .trackHead{
     font-size: 4em;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 .track3Head{
     font-size: 3em;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 
 .trackDesc{
     font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 .track3box{
     background: rgb(23, 23, 65);
@@ -112,9 +129,16 @@ body{
 .aboutTrack > div > h3{
     margin-bottom: 1em;
     color: tomato;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+
 }
 .aboutTrack > div > p{
     font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 
@@ -140,18 +164,44 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
 
 
 /* SPEAKER PANEL */
-.speakerPanel{
-    margin-bottom: 4em;
-    position: relative;
-    /* background-color: teal; */
-    height: auto;
-    width: 100vw;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.speakerPanel {
+	position: relative;
+	/* background-color: teal; */
+	height: auto;
+	/* width: 80%; */
+	/* padding: 1em; */
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 5vw;
+	margin-top: 0px;
+	/* box-shadow: 0px 8px 16px 0 rgba(0,0,0,.3); */
+	background-color: white;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+
+.speakerAbout {
+	font-size: 21px;
+	padding-top: 15px;
+	padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 50px;
+    color: black;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.speakerPanel h3{
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
+    font-size: 3.5em;
 
 }
+
+
+
 
 .speakerPanel > div{
     height: auto;
@@ -163,9 +213,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     display: grid;
     grid-template-columns: auto;
 }
-.speakerPanel > h3{
+.speakerPanel  h3{
     color: tomato;
     font-size: 4em;
+    font-family: 'monospace-font', Avenir, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-indent: 0em;
 }
 
 .speakerPanelDouble{
@@ -226,7 +281,14 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     font-size: 20px;
 }
 
+/*ipad potrait grids*/
 
+@media only screen and (max-width: 1200px) {
+    .trackLogo img{
+        height: 150px;
+    }
+ 
+}
 /* iphone 6s and 6s+*/
 
 @media only screen and (max-width: 420px) {
@@ -294,14 +356,7 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     }
 }
 
-/*ipad potrait grids*/
 
-@media only screen and (max-width: 1200px) {
-    .trackLogo img{
-        height: 150px;
-    }
- 
-}
 
 
 
