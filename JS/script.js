@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Parallax.init(elems);
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+    $(".dropdown-trigger").dropdown();
+});
 
   function toggleMenu(e) {
     var menubar = document.getElementsByClassName('nav-details')[0];
