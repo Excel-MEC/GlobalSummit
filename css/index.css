@@ -408,13 +408,12 @@ hr {
 
 .footerDiv {
   width: 100%;
-  height:37vh;
+  height:25vh;
+  padding: 10px;
   padding-top: 3em;
   background-color: #333;
   display: grid;
-  grid-template-rows: 3fr 1fr;
-  grid-template-columns: 4fr 2fr 2fr;
-  grid-template-areas: "logo ibeto excel" "brand brand brand";
+  grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". . brand . .";
 }
 
 .footerDiv a {
@@ -455,6 +454,7 @@ hr {
   grid-area: ibeto;
   /* background-color: teal; */
   display: grid;
+  margin: auto;
 }
 
 .footerIbeto img {
@@ -473,6 +473,7 @@ hr {
   grid-area: excel;
   /* background-color: #333; */
   display: grid;
+  margin: auto;
 }
 
 .footerExcel img {
@@ -492,6 +493,9 @@ hr {
   grid-area: brand;
   /* background-color: brown; */
   display: grid;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
 }
 
 .Excelbrand span {
@@ -500,10 +504,23 @@ hr {
   color: white;
 }
 
+.icon1{
+  grid-area: icon1;
+  margin: auto;
+}
+.icon2{
+  grid-area: icon2;
+  margin: auto;
+}
+.icon3{
+  grid-area: icon3;
+  margin: auto;
+}
+
 /* Responsive - Mobile View */
 
+/*
 @media (max-width: 768px) {
-  /* Footer */
   .footerDiv {
     height: 50vh;
   }
@@ -536,6 +553,7 @@ hr {
     font-size: 8px;
   }
 }
+*/
 
 /* Media queries */
 
@@ -581,13 +599,7 @@ hr {
     .attendeeDetailDiv {
         grid-template-columns: auto auto;
     }
-    .footerDiv {
-        height: 225px;
-    }
-    .footerDiv .logo div a {
-        font-size: 17px;
-        padding: 0 4px;
-    }
+    
     .homeContent .logo img {
         height: 125px;
       }
@@ -672,10 +684,6 @@ hr {
     .attendeeHead{
         font-size: 2.4em;
     }
-    .footerDiv .logo div a {
-        font-size: 12px;
-        padding: 0 4px;
-    }
     .homeContent .logo img {
         height: 100px;
       }
@@ -711,12 +719,18 @@ hr {
   .attendeeDetailDiv {
     grid-template-columns: auto auto;
   }
+  
   .footerDiv {
+    grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". . brand . .";
     height: 225px;
   }
+  .footerDiv img{
+    height: 42px;
+  }
+
   .footerDiv .logo div a {
-    font-size: 17px;
-    padding: 0 4px;
+      font-size: 17px;
+      padding: 0 4px;
   }
 }
 /* iphone 6s and 6s+*/
