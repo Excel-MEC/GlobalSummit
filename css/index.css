@@ -24,6 +24,16 @@ a{
   height: 63px;
 }
 
+
+@media(min-width:768px){
+    .brand-logo img{
+        height: 44px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+}
+
 .Logo {
   /* background-color: teal; */
   flex-basis: 50%;
