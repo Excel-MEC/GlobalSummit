@@ -6,6 +6,18 @@ body {
 a{
   outline-style: none;
 }
+
+/* modifying siplay temporarily */
+.greyscale{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.no-show{
+  display: none;
+}
+
+
 /* NAVBAR */
 
 .brand-logo img{
@@ -180,7 +192,7 @@ a{
   align-items: center;
   font-size: 3.7em;
   font-weight: lighter;
-  color: gray;
+  color: tomato;
   /* background-color: teal; */
   font-family: 'monospace-font', Avenir, sans-serif;
     letter-spacing: -0.02em;
@@ -346,7 +358,7 @@ a{
   align-items: center;
   font-size: 3em;
   font-weight: lighter;
-  color: gray;
+  color: tomato;
   /* background-color: teal; */
 }
 
