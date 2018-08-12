@@ -139,8 +139,6 @@ a{
     text-indent: 0em;
 }
 
-/*Built by Joyal A Johney & Devdutt Shenoi*/
-
 .Tickets {
   grid-area: Tickets;
   /* background-color: teal; */
@@ -250,7 +248,7 @@ a{
 }
 
 .top-left {
-  background-image: url("../assets/kochi.jpg");
+  background-image: url("../assets/kochimetro.jpg");
   background-size: cover;
   grid-column: 1/3;
 }
