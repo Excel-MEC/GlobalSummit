@@ -39,7 +39,26 @@ a{
 .HomeDiv {
   height: 85vh;
   width: 100%;
-  background-image: url("../assets/home2.jpeg");
+  /*background-image: url("../assets/home2.jpeg");*/
+  background-image: url("../assets/skyline.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+.pitchHomeDiv {
+  height: 85vh;
+  width: 100%;
+  /*background-image: url("../assets/home2.jpeg");*/
+  background-image: url("../assets/pitch.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+.exhiHomeDiv {
+  height: 85vh;
+  width: 100%;
+  /*background-image: url("../assets/home2.jpeg");*/
+  background-image: url("../assets/exhibition.jpg");
   background-size: cover;
   position: relative;
 }
@@ -231,19 +250,19 @@ a{
 }
 
 .top-left {
-  background-image: url("../assets/left_image.jpg");
+  background-image: url("../assets/kochi.jpg");
   background-size: cover;
   grid-column: 1/3;
 }
 
 .top-right {
-  background-image: url("../assets/right_image.jpg");
+  background-image: url("../assets/hillpalace.jpg");
   background-size: cover;
   grid-column: 4/5;
 }
 
 .bottom-mid {
-  background-image: url("../assets/middle_image.jpg");
+  background-image: url("../assets/akhil-chandran-204550-unsplash.jpg");
   background-size: cover;
   grid-column: 2/4;
 }
