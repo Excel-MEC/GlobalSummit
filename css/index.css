@@ -248,7 +248,8 @@ a{
 }
 
 .top-left {
-  background-image: url("../assets/kochimetro.jpg");
+
+  background-image: url("../assets/kochi.jpg");
   background-size: cover;
   grid-column: 1/3;
 }
