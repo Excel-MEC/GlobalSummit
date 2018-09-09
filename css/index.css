@@ -873,6 +873,8 @@ hr {
   .globalDiv button {
     height: 3em;
   }
+
+  
 }
 
 /*Track*/
@@ -930,6 +932,15 @@ hr {
     align-self: center;
     height: 100px;
   }
+
+  /* HomeDiv */
+  .logos {
+    flex-basis: 25%; 
+  }
+  .homeContent {
+    flex-basis: 50%;
+  }
+  
 }
 
 /* ipad logo landscape*/
