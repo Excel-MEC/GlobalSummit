@@ -874,6 +874,17 @@ hr {
     height: 3em;
   }
 
+    /* HomeDiv */
+    .logos {
+      width: 20% !important;
+    }
+    .homeContent {
+      width: 60% !important;
+    }
+    .homeContent div{
+      width: 85% !important;
+    }
+    
   
 }
 
