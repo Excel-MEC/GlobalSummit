@@ -190,6 +190,16 @@ a{
   /* background-color: yellow; */
 }
 
+/* pitch div */
+.pitchDiv {
+  width: 100%;
+  height: 50vh;
+  padding: 4em;
+  /* background-color: teal; */
+  display: grid;
+  grid-template-rows: 1fr 0.8fr 0.9fr;
+}
+
 /* Global DIV */
 
 .globalDiv {
@@ -203,7 +213,7 @@ a{
 
 .exhiglobalDiv{
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   padding: 4em;
   /* background-color: teal; */
   display: grid;
@@ -429,6 +439,8 @@ hr {
 .portrait > img {
   width: 300px;
   border-radius: 300px;
+  height: 300px;
+  background-size: cover;
 }
 
 /*Footer*/
