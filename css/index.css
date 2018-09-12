@@ -240,13 +240,14 @@ a{
 
 .globalContent {
   height: auto;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   text-align: center;
   /* background-color: yellow; */
   padding-bottom: 1em;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 
 .globalDiv button {
   width: 14em;
