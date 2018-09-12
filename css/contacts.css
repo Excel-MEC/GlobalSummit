@@ -32,9 +32,11 @@ body{
     background-size: cover;
 }
 
+
 @media only screen and (max-width:450px){
-    .contact > img {
-        width: 175px;
-        border-radius: 175px;
+    .contact > img{
+        width:60vw;
+        border-radius:60vw;
+        height: 60vw;
     }
 }
