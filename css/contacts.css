@@ -22,14 +22,21 @@ body{
     text-align:center;
     padding:20px;
 }
+.contact-name{
+    font-size: 25px;
+}
 .contact > img{
     width:250px;
-    border-radius:2500px;
+    border-radius:250px;
+    height: 250px;
+    background-size: cover;
 }
 
+
 @media only screen and (max-width:450px){
-    .contact > img {
-        width: 175px;
-        border-radius: 175px;
+    .contact > img{
+        width:60vw;
+        border-radius:60vw;
+        height: 60vw;
     }
 }

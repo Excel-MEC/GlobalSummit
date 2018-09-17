@@ -190,6 +190,16 @@ a{
   /* background-color: yellow; */
 }
 
+/* pitch div */
+.pitchDiv {
+  width: 100%;
+  height: 50vh;
+  padding: 4em;
+  /* background-color: teal; */
+  display: grid;
+  grid-template-rows: 1fr 0.8fr 0.9fr;
+}
+
 /* Global DIV */
 
 .globalDiv {
@@ -201,6 +211,15 @@ a{
   grid-template-rows: 1fr 0.8fr 0.9fr;
 }
 
+.exhiglobalDiv{
+  width: 100%;
+  height: 60vh;
+  padding: 4em;
+  /* background-color: teal; */
+  display: grid;
+  grid-template-rows: 1fr 0.8fr 0.9fr;
+
+}
 .globalHead {
   width: 100%;
   height: 20vh;
@@ -221,13 +240,20 @@ a{
 
 .globalContent {
   height: auto;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   text-align: center;
   /* background-color: yellow; */
   padding-bottom: 1em;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+ol {
+  text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:25px;
+}
+
 
 .globalDiv button {
   width: 14em;
@@ -248,6 +274,7 @@ a{
 }
 
 .top-left {
+
   background-image: url("../assets/kochimetro.jpg");
   background-size: cover;
   grid-column: 1/3;
@@ -419,6 +446,8 @@ hr {
 .portrait > img {
   width: 300px;
   border-radius: 300px;
+  height: 300px;
+  background-size: cover;
 }
 
 /*Footer*/
@@ -430,7 +459,7 @@ hr {
   padding-top: 3em;
   background-color: #333;
   display: grid;
-  grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". . brand . .";
+  grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". brand brand brand .";
 }
 
 .footerDiv a {
@@ -591,19 +620,18 @@ hr {
         grid-template-columns: auto;
     }
     .top-left {
-        background-image: url('../assets/left_image.jpg');
         background-size: cover;
         grid-column: auto;
         height: 35vh;
     }
     .top-right {
-        background-image: url('../assets/right_image.jpg');
+
         background-size: cover;
         grid-column: auto;
         height: 40vh;
     }
     .bottom-mid {
-        background-image: url('../assets/middle_image.jpg');
+
         background-size: cover;
         grid-column: auto;
         height: 40vh;
@@ -657,13 +685,18 @@ hr {
     .globalDiv {
         height: 95vh;
     }
+
     .globalHead {
         height: auto;
         text-align: center;
         font-size: 2.5em;
     }
     .globalContent {
-        font-size: 15px;
+        font-size: 18px;
+    }
+
+    ol{
+      font-size:18px;
     }
     .imagesDiv {
         height: auto;
@@ -672,19 +705,17 @@ hr {
         grid-template-columns: auto;
     }
     .top-left {
-        background-image: url('../assets/left_image.jpg');
+      
         background-size: cover;
         grid-column: auto;
         height: 35vh;
     }
     .top-right {
-        background-image: url('../assets/right_image.jpg');
         background-size: cover;
         grid-column: auto;
         height: 55vh;
     }
     .bottom-mid {
-        background-image: url('../assets/middle_image.jpg');
         background-size: cover;
         grid-column: auto;
         height: 40vh;
@@ -711,19 +742,17 @@ hr {
     grid-template-columns: auto;
   }
   .top-left {
-    background-image: url("../assets/left_image.jpg");
     background-size: cover;
     grid-column: auto;
     height: 35vh;
   }
   .top-right {
-    background-image: url("../assets/right_image.jpg");
+
     background-size: cover;
     grid-column: auto;
     height: 40vh;
   }
   .bottom-mid {
-    background-image: url("../assets/middle_image.jpg");
     background-size: cover;
     grid-column: auto;
     height: 40vh;
@@ -738,7 +767,7 @@ hr {
   }
   
   .footerDiv {
-    grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". . brand . .";
+    grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". brand brand brand .";
     height: 225px;
   }
   .footerDiv img{
@@ -748,6 +777,10 @@ hr {
   .footerDiv .logo div a {
       font-size: 17px;
       padding: 0 4px;
+  }
+
+  .icon3 img{
+    height: 30px;
   }
 }
 /* iphone 6s and 6s+*/
@@ -778,42 +811,52 @@ hr {
   .globalDiv {
     height: 95vh;
   }
+  .exhiglobalDiv{
+    height: 90vh;
+    }
   .globalHead {
     height: auto;
     text-align: center;
     font-size: 2.5em;
   }
   .globalContent {
-    font-size: 17px;
+    font-size: 20px;
   }
+
+  ol{
+    font-size:20px;
+  }
+
   .imagesDiv {
     height: auto;
     background-color: #efefef;
     display: grid;
     grid-template-columns: auto;
   }
+
   .top-left {
-    background-image: url("../assets/left_image.jpg");
     background-size: cover;
     grid-column: auto;
     height: 35vh;
   }
+
   .top-right {
-    background-image: url("../assets/right_image.jpg");
     background-size: cover;
     grid-column: auto;
     height: 55vh;
   }
+
   .bottom-mid {
-    background-image: url("../assets/middle_image.jpg");
     background-size: cover;
     grid-column: auto;
     height: 40vh;
   }
+
   .quote-section {
     height: 35vh;
     grid-column: auto;
     color: white;
+    font-size: 24px;
   }
   .attendeeDetailDiv {
     grid-template-columns: auto;
@@ -842,17 +885,37 @@ hr {
     text-align: center;
   }
   .globalContent {
-    font-size: 15px;
+    font-size: 17px;
+  }
+  ol{
+    font-size:17px;
   }
   .globalDiv {
     height: 100vh;
   }
+  .exhiglobalDiv{
+    height: 125vh;
+    }
+    
   .globalDiv button {
     width: auto;
   }
   .globalDiv button {
     height: 3em;
   }
+
+    /* HomeDiv */
+    .logos {
+      width: 20% !important;
+    }
+    .homeContent {
+      width: 60% !important;
+    }
+    .homeContent div{
+      width: 85% !important;
+    }
+    
+  
 }
 
 /*Track*/
@@ -895,8 +958,9 @@ hr {
     grid-template-columns: auto;
   }
   .portrait > img {
-    width: 175px;
-    border-radius: 175px;
+    width: 60vw;
+    border-radius: 60vw;
+    height:60vw;
   }
   .portrait {
     font-size: 15px;
@@ -910,6 +974,15 @@ hr {
     align-self: center;
     height: 100px;
   }
+
+  /* HomeDiv */
+  .logos {
+    flex-basis: 25%; 
+  }
+  .homeContent {
+    flex-basis: 50%;
+  }
+  
 }
 
 /* ipad logo landscape*/
