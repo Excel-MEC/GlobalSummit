@@ -81,7 +81,7 @@ a{
   position: relative;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 1.2fr 0.5fr 1fr 2fr;
+  grid-template-rows: 2fr 2fr 2fr;
   grid-template-areas: "logo" "INDIA" "Global" "Tickets";
 }
 
@@ -98,7 +98,7 @@ a{
 
 .homeContent .logo {
   grid-area: logo;
-  /* background-color: yellow; */
+  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,8 @@ a{
   width: 100%;
   /* background-color: darkgreen; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 15vw;
   align-items: center;
   color: white;
   font-size: 4em;
@@ -608,6 +609,9 @@ hr {
     .homeContent .logo img {
         height: 150px;
     }
+    #emergelogo{
+        height: 150px;
+    }
 }
 
 /*ipad potrait grids*/
@@ -648,6 +652,9 @@ hr {
     .homeContent .logo img {
         height: 125px;
       }
+      #emergelogo{
+        height: 125px;
+    }
 
     .brand-logo img{
       display: none;
@@ -735,6 +742,9 @@ hr {
     .homeContent .logo img {
         height: 100px;
       }
+      #emergelogo{
+        height: 100px;
+    }
   .imagesDiv {
     height: auto;
     background-color: #efefef;
@@ -974,6 +984,9 @@ hr {
     align-self: center;
     height: 100px;
   }
+  #emergelogo{
+    height: 100px;
+  }
 
   /* HomeDiv */
   .logos {
@@ -990,4 +1003,14 @@ hr {
   .homeContent .logo img {
     height: 150px;
   }
+  #emergelogo{
+    height: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 760px){
+    #emergelogo{
+        height: 120px;
+    }
 }
