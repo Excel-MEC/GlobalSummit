@@ -46,12 +46,22 @@ a{
 }
 
 .pitchHomeDiv {
-  height: 85vh;
+  height: 80vh;
   width: 100%;
   /*background-image: url("../assets/home2.jpeg");*/
   background-image: url("../assets/pitch.jpeg");
   background-size: cover;
   position: relative;
+}
+.pitch-logo{
+    grid-area: logo;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 15vh;
 }
 
 .exhiHomeDiv {
@@ -85,6 +95,18 @@ a{
   grid-template-areas: "logo" "INDIA" "Global" "Tickets";
 }
 
+.landinghomeContent{
+    /* background-color: teal; */
+    flex-basis: 80%;
+    width: 60%;
+    height: 70vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1.2fr 0.5fr 1fr 2fr;
+    grid-template-areas: "logo" "INDIA" "Global" "Tickets";
+}
+
 .logos {
   height: 10px;
   width: 10px;
@@ -107,7 +129,21 @@ a{
   margin-left: -5vw;
 }
 
+.landinghomeContent .logo {
+  grid-area: logo;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  margin-left: -5vw;
+}
+
 .homeContent .logo img {
+  height: 25vw;
+}
+.landinghomeContent .logo img {
   height: 25vw;
 }
 
@@ -124,6 +160,7 @@ a{
   color: white;
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
 }
 
 .Global {
@@ -609,10 +646,23 @@ hr {
 /* Media queries */
 
 /* ipad logo landscape*/
+/* ipad logo landscape*/
+@media only screen and (max-width: 1200px) {
+  .homeContent .logo img {
+    height: 150px;
+  }
+  .landinghomeContent .logo img {
+    height: 150px;
+  }
+}
+
 @media only screen and (max-width:1200px){
-    .homeContent .logo img {
-        height: 150px;
-    }
+  .homeContent .logo img {
+    height: 150px;
+  }
+  .landinghomeContent .logo img {
+    height: 150px;
+  }
 }
 
 /*ipad potrait grids*/
@@ -653,6 +703,9 @@ hr {
     .homeContent .logo img {
         height: 125px;
       }
+    .landinghomeContent .logo img {
+        height: 125px;
+      }
 
     .brand-logo img{
       display: none;
@@ -663,6 +716,9 @@ hr {
 @media only screen and (max-width: 450px) {
     .HomeDiv {
         height: 90vh;
+    }
+    .pitchHomeDiv {
+      height: 90vh;
     }
     .transparent-box {
         height: 90vh;
@@ -740,6 +796,9 @@ hr {
     .homeContent .logo img {
         height: 100px;
       }
+    .landinghomeContent .logo img {
+        height: 100px;
+      }
   .imagesDiv {
     height: auto;
     background-color: #efefef;
@@ -787,6 +846,12 @@ hr {
   .icon3 img{
     height: 30px;
   }
+  .homeContent .logo {
+    margin-top: 20vh;
+  }
+  .landinghomeContent .logo {
+    margin-top: 20vh;
+  }
 }
 /* iphone 6s and 6s+*/
 
@@ -811,7 +876,7 @@ hr {
     font-size: 25px;
   }
   .Tickets a {
-    padding: 10px 20px;
+    padding: 10px 40px;
   }
   .globalDiv {
     height: 95vh;
@@ -879,6 +944,18 @@ hr {
   }
 }
 
+@media only screen and (max-width: 420px) and (min-height:700px){
+  .transparent-box {
+    height: 80vh;
+  }
+  .HomeDiv {
+    height: 80vh;
+  }
+  .pitchHomeDiv {
+    height: 80vh;
+  }
+}
+
 /* very small phone Iphone SE */
 
 @media only screen and (max-width: 320px) {
@@ -916,8 +993,25 @@ hr {
     .homeContent {
       width: 60% !important;
     }
+    .landinghomeContent {
+      width: 60% !important;
+    }
     .homeContent div{
-      width: 85% !important;
+      /*width: 85%;*/
+    }
+    .landinghomeContent div{
+      width: 85%;
+    }
+    .homeContent .logo {
+      margin-left: 0px;
+      margin-top: 15vh;
+    }
+    .landinghomeContent .logo {
+      margin-left: 0px;
+      margin-top: 15vh;
+    }
+    .logo img {
+      height: 150px;
     }
     
   
@@ -974,10 +1068,18 @@ hr {
   .homeContent {
     width: 80%;
   }
+  .landinghomeContent {
+    width: 80%;
+  }
   .homeContent .logo img {
     justify-self: center;
     align-self: center;
-    height: 100px;
+    height: 135px;
+  }
+  .landinghomeContent .logo img {
+    justify-self: center;
+    align-self: center;
+    height: 135px;
   }
 
   /* HomeDiv */
@@ -987,12 +1089,9 @@ hr {
   .homeContent {
     flex-basis: 50%;
   }
+  .landinghomeContent {
+    flex-basis: 50%;
+  }
   
 }
 
-/* ipad logo landscape*/
-@media only screen and (max-width: 1200px) {
-  .homeContent .logo img {
-    height: 150px;
-  }
-}
