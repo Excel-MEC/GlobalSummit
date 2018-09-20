@@ -80,8 +80,9 @@ a{
   height: 70vh;
   position: relative;
   display: grid;
-  grid-template-rows: 3fr 2fr 2fr;
-  grid-template-areas: "INDIA" "Global" "Tickets";
+  grid-template-columns: auto;
+  grid-template-rows: 1.2fr 0.5fr 1fr 2fr;
+  grid-template-areas: "logo" "INDIA" "Global" "Tickets";
 }
 
 .logos {
@@ -97,7 +98,7 @@ a{
 
 .homeContent .logo {
   grid-area: logo;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +115,7 @@ a{
   /* background-color: tomato; */
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   color: white;
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
@@ -125,8 +126,7 @@ a{
   width: 100%;
   /* background-color: darkgreen; */
   display: flex;
-  justify-content: flex-start;
-  padding-left: 15vw;
+  justify-content: center;
   align-items: center;
   color: white;
   font-size: 4em;
@@ -648,6 +648,7 @@ hr {
     .homeContent .logo img {
         height: 125px;
       }
+
     .brand-logo img{
       display: none;
     }
@@ -988,21 +989,5 @@ hr {
 @media only screen and (max-width: 1200px) {
   .homeContent .logo img {
     height: 150px;
-  }
-}
-
-
-@media only screen and (max-width: 768px){
-  .Global{
-    font-size: 2em;
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 0;
-  }
-  .Global > img{
-    height: 100px;
-  }
-  .India{
-    align-items:center;
   }
 }
