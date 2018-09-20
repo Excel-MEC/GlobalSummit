@@ -104,10 +104,15 @@ a{
   align-items: center;
   color: white;
   font-size: 30px;
+  margin-left: -5vw;
 }
 
 .homeContent .logo img {
-  height: 175px;
+  height: 25vw;
+}
+
+.logo-text{
+  margin-left: -5vw;
 }
 
 .India {
