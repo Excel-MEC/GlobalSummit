@@ -852,6 +852,14 @@ hr {
   .landinghomeContent .logo {
     margin-top: 20vh;
   }
+  .pitchDiv {
+    width: 100%;
+    height: 110vh;
+    padding: 4em;
+    /* background-color: teal; */
+    display: grid;
+    grid-template-rows: 1fr 0.8fr 0.9fr;
+  }
 }
 /* iphone 6s and 6s+*/
 
