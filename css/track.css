@@ -23,7 +23,8 @@ body{
     background-size: cover;
 }
 .track5{
-    background: url('../assets/track5Head.jpg');
+    /*background: url('../assets/track5Head.jpg');*/
+    background: url('../assets/track5Head_alt.jpg');
     background-size: cover;
 }
 .track6{
