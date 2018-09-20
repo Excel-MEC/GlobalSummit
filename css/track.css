@@ -328,6 +328,14 @@ body{
         font-size: 18px;
         font-family: 'Josefin Sans', sans-serif;
     }
+    .track3Head {
+        font-size: 3em;
+        font-family: 'monospace-font', Avenir, sans-serif;
+        letter-spacing: -0.02em;
+        line-height: 1.2;
+        font-weight: 500;
+        text-indent: 0em;
+    }
 }
 /* iphone se*/
 @media only screen and (max-width: 320px) {
