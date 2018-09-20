@@ -15,11 +15,11 @@ body{
     background-size: cover;
 }
 .track3{
-    background: url('../assets/Judiciary.jpg');
+    background: url('../assets/kerala.jpg');
     background-size: cover;
 }
 .track4{
-    background: url('../assets/track4Head.jpg');
+    background: url('../assets/blockchain.jpg');
     background-size: cover;
 }
 .track5{
@@ -27,7 +27,7 @@ body{
     background-size: cover;
 }
 .track6{
-    background: url('../assets/track6head.jpg');
+    background: url('../assets/idea.jpg');
     background-size: cover;
 }
 
