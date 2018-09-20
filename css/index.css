@@ -137,7 +137,7 @@ a{
   align-items: center;
   color: white;
   font-size: 30px;
-  margin-left: -5vw;
+  margin-left: -6.5vw;
 }
 
 .homeContent .logo img {
@@ -966,7 +966,7 @@ hr {
 
 /* very small phone Iphone SE */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 330px) {
   .India {
     font-size: 15px;
   }
@@ -1004,11 +1004,8 @@ hr {
     .landinghomeContent {
       width: 60% !important;
     }
-    .homeContent div{
-      /*width: 85%;*/
-    }
     .landinghomeContent div{
-      width: 85%;
+      width: 85% !important;;
     }
     .homeContent .logo {
       margin-left: 0px;
@@ -1018,9 +1015,10 @@ hr {
       margin-left: 0px;
       margin-top: 15vh;
     }
-    .logo img {
-      height: 150px;
+    .landinghomeContent .logo img{
+        height: 90px !important;
     }
+}
     
   
 }
