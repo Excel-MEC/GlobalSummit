@@ -137,7 +137,7 @@ a{
   align-items: center;
   color: white;
   font-size: 30px;
-  margin-left: -6.5vw;
+  margin-left: -5vw;
 }
 
 .homeContent .logo img {
@@ -191,7 +191,7 @@ a{
 
 .Tickets a {
   height: 5em;
-  width: 15em;
+  width: 50vw;
   background-color: whitesmoke;
   opacity: 1;
   padding: 1em;
@@ -1020,8 +1020,6 @@ hr {
     }
 }
     
-  
-}
 
 /*Track*/
 /* TRACK CONTACT */
@@ -1085,7 +1083,7 @@ hr {
   .landinghomeContent .logo img {
     justify-self: center;
     align-self: center;
-    height: 135px;
+    height: 120px;
   }
 
   /* HomeDiv */
