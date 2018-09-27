@@ -8,28 +8,28 @@ body{
  
 .track1{
     background: url('../assets/driverlesscar.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .track2{
     background: url('../assets/track2Head1.jpeg');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .track3{
     background: url('../assets/kerala.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .track4{
     background: url('../assets/blockchain.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .track5{
     /*background: url('../assets/track5Head.jpg');*/
     background: url('../assets/track5Head_alt.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .track6{
-    background: url('../assets/idea.jpg');
-    background-size: cover;
+    background: url('../assets/AGI_Robot.jpg');
+    background-size: 100% 100%;
 }
 
 @media only screen and (min-width: 993px){
@@ -148,7 +148,10 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
+.date{
+   font-size:40px;
+   font-family: 'Josefin Sans', sans-serif;
+}
 
 /* SPEAKER PANEL */
 .speakerPanel {
@@ -337,6 +340,10 @@ body{
         font-weight: 500;
         text-indent: 0em;
     }
+    .date{
+        font-size:27px;
+        font-family: 'Josefin Sans', sans-serif;
+     }
 }
 /* iphone se*/
 @media only screen and (max-width: 320px) {
@@ -364,6 +371,10 @@ body{
     .speakerAbout {
         font-size: 14px;
     }
+    .date{
+        font-size:25px;
+        font-family: 'Josefin Sans', sans-serif;
+     }
 }
 
 
